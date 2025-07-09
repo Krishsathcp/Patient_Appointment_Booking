@@ -90,13 +90,6 @@ npm start
 Krishsath CP
 
 📬 Contact Me
-🔗 LinkedIn
-
-💻 GitHub
-
-📧 Email: cpkrishsath@gmail.com
-
-yaml
-Copy
-Edit
-
+- 🔗 [LinkedIn](https://www.linkedin.com/in/krishsath-cp-59754532a/)
+- 💻 [GitHub](https://github.com/Krishsathcp)
+- 📧 Email: cpkrishsath@gmail.com
