@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.intro-container {
+  min-height: 100vh;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  background-color: #007bff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.intro-content {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  width: 90%;
+}
+
+.intro-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.intro-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.summary,
+.achievements {
+  margin: 30px 0;
+}
+
+.summary h2,
+.achievements h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.summary p {
+  font-size: 16px;
+  color: #666;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements li {
+  font-size: 16px;
+  color: #444;
+  margin: 8px 0;
+}
+
+.login-btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .intro-content {
+    padding: 30px;
+  }
+
+  .intro-content h1 {
+    font-size: 36px;
+  }
+
+  .intro-content p {
+    font-size: 16px;
+  }
+
+  .summary h2,
+  .achievements h2 {
+    font-size: 24px;
+  }
+
+  .login-btn {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+}
+.departments-section {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.departments-section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.departments-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.departments-section li {
+  font-size: 16px;
+  color: #444;
+  margin: 8px 0;
+}

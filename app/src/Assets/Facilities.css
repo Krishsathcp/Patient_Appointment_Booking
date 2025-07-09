@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  .fac-header, footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+  .fac-nav {
+    background-color: #0056b3;
+    padding: 10px;
+    text-align: center;
+  }
+  .fac-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  .facilities {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .facilities h2 {
+    margin-bottom: 20px;
+  }
+  .facility-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .facility-item {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+  }
+  .facility-item:hover {
+    transform: scale(1.05);
+  }
+  .facility-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .facility-item h3 {
+    margin-bottom: 10px;
+  }
+  
