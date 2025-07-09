@@ -77,7 +77,9 @@ MONGO_URI=your_mongodb_connection_string
 cd server
 npm install
 node server.js
+```
 🌐 Start the frontend:
+```bash
 cd app
 npm install
 npm start
