@@ -21,22 +21,24 @@ A **full-stack web-based system** that allows patients to register, log in, book
 
 📁 Project Structure
 
-Patient_Appointment_Booking/
-│
-├── app/ # React frontend
-│ └── src/assets/ # CSS and images
-├── server/ # Node + Express backend
-│ ├── models/ # Mongoose models
-│ │ ├── Appointment.js
-│ │ └── User.js
-│ ├── .env # Environment variables (not tracked)
-│ └── server.js # Main backend server
-├── start_app/ # Batch scripts for automation
-│ ├── start_app.bat
-│ ├── start_server.bat
-│ └── start_all.bat
-└── README.md
+- `app/` – React frontend  
+  - `src/assets/` – Contains stylesheets and images used in components:
+    - `Appointment.css`, `Login.css`, `SignUp.css`, `Profile.css`, etc.
+    - `images/` – Hospital-related images used in UI
 
+- `server/` – Node.js + Express backend  
+  - `server.js` – Main backend entry point  
+  - `models/` – Contains Mongoose schemas:
+    - `Appointment.js` – Appointment schema
+    - `User.js` – User registration/login schema  
+  - `.env` – Stores environment variables like MongoDB connection URI (excluded from Git)
+
+- `start_app/` – Startup batch scripts for convenience  
+  - `start_server.bat` – Starts backend server  
+  - `start_app.bat` – Starts React frontend  
+  - `start_all.bat` – Starts both frontend and backend together
+
+- `README.md` – Project documentation and setup guide
 
 
 ---
